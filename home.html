@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="authstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <!-- NAVBAR SECTION -->
+    
+   <nav class="navbar">
+            
+    <div class="navbar_logo">
+        <img src="img/R_logo.svg" alt="" class="nav_logo">
+    </div>            
+</nav>
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <header>Logged in <a href="/assets/index.html">
+                    <span>Continue<i class="ri-arrow-right-line"></i></span>
+                    <div class="liquid"></div>
+                </a></header>
+
+            </div>
+            
+            <div class="line"></div>
+            <p id="user">Logged in as: </p>
+
+            <div class="field button-field">
+                <button id="signout" type="submit">Logout</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+   <script src="./js/signout.js"></script>
+
+</body>
+</html>
